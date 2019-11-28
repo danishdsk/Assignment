@@ -2,13 +2,9 @@ Hi,
 
 Note : Please change connection string in web.config file, Put proper Servername with credentials.
 
-First Zip file contains backup of database which was created in Sql Server 2012. and in DB Script folder there is four file
-  1. Employees (Table script) : Script of Master Table
-  2. Get_Employee (Stored Procedure 1 Script) : Stored Procedure for Get Table data
-  3. Save_Employee (Stored Procedure 2 Script) : Stored Procedure for Save data
-  4. Test_DB (Database Script) : Databse Script
+Test_DB (Database Script).sql file contains Databse Script with objects script
   
-Second Zip file contails MVC Application created in Visual Studio 2015.
+Test_KPIT.Zip file contains MVC Application created in Visual Studio 2015.
 
 
 Thank You :)
