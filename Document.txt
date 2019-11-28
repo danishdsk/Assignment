@@ -1,5 +1,7 @@
 Hi,
 
+Note : Please change connection string in web.config file, Put proper Servername with credentials.
+
 First Zip file contains backup of database which was created in Sql Server 2012. and in DB Script folder there is four file
   1. Employees (Table script) : Script of Master Table
   2. Get_Employee (Stored Procedure 1 Script) : Stored Procedure for Get Table data
