@@ -1,0 +1,58 @@
+<html>
+	<head>
+		<title>Number</title>
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+		<script type="text/javascript" src="C9Numeric.js"></script>
+
+		<script type="text/javascript">
+		 jQuery(function($) {
+			$('.clstestTest').C9Numeric("C9 Method");
+		 });
+		 
+		</script>
+
+		<style>
+			input[type="text"] {
+				text-align:right;
+			}
+		</style>
+	</head>
+	<body style="">
+		<h2>C9 Number 1.0</strong></h2>
+		<form id="testBeta">
+			<table width="1206" border="0">
+				<tbody>
+					<tr style="height:35px;">
+						<td width="204"><strong> &nbsp;Element</strong></td>
+						<td width="182"><strong>Demonstrates</strong></td>
+					 </tr>
+					  
+					<tr style="height:35px">
+						<td><label id="testTest" class="clstestTest" class1="class 1" size="25" c9n-group=""  c9n-sign="" c9n-dec="" c9n-display="true"> -12345678.001 </label></td>
+						<td>Display field required [c9n-display="true"] attribute </td>
+					 </tr>
+					
+					<tr style="height:35px">
+						<td>
+							<input type="text" name="one" id="testTest1" class="clstestTest" value="226585.668" c9n-group="2"  c9n-sign="" c9n-dec="5" c9n-display="false">
+						</td>
+						<td> Input field don't required [c9n-display] or false value Ex: [c9n-display="false"] </td>
+					 </tr>
+					 
+					 <tr style="height:35px">
+						<td>
+							<input type="text" name="one" id="testTest1" class="clstestTest" value="226585.668" c9n-group="2"  c9n-sign="Rs " c9n-dec="5" c9n-display="false">
+						</td>
+						<td> Input field with prefix [c9n-sign="Rs "] </td>
+					 </tr>
+					 
+					 <tr style="height:35px">
+						<td> <label id="hdntest1" class="clstestTest" c9n-group="3"  c9n-sign="Rs " c9n-dec="5" c9n-display="true">-012345678901.123456</label></td> </td>
+						<td>Display field, group with 3 [c9n-group="3"] and prefix [c9n-sign="Rs "]</td>
+					 </tr>
+					 
+				</tbody>
+			</table>
+		</form>
+	</body>
+</html>
